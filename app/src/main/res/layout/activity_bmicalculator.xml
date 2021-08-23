@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hell"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:text="BMI Calculator"
+        android:textColor="#ff0000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="250dp"
+        android:text="WEIGHT :"
+        android:textColor="#ff9876"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEIGHT :"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ff9876"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="240dp"
+        android:textSize="20dp"
+        android:textColor="#f2f2f2"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="340dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColor="#f2f2f2"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="460dp"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="546dp"
+        android:layout_marginBottom="284dp"
+        android:textColor="#f2f2f2"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="408dp"
+        android:textColor="#f2f2f2"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="657dp"
+        android:layout_marginBottom="176dp"
+        android:background="#127C3131"
+        android:text="Reset"
+        android:textColor="#b00000" />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="287dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="704dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="131dp"
+        android:background="#f09876"
+        android:text="Next"
+        android:textColor="#00FFFF" />
+
+</RelativeLayout>
